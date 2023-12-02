@@ -1,8 +1,14 @@
 <script setup>
+    import Navbar from './components/Navbar.vue';
+    import Home from './pages/Home.vue';
 </script>
 
 <template>
-    <h1 class="text-4xl font-extrabold">Hello World</h1>
+    <div class="bg-veryDarkBlueDark min-h-screen">
+        <Navbar />
+
+        <Home />
+    </div>
 </template>
 
 <style scoped>
