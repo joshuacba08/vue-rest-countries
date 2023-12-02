@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-input{
+input, select{
     background: none;
     outline: none;
 }
