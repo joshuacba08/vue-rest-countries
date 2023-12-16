@@ -7,7 +7,7 @@
     <div class="bg-veryDarkBlueDark min-h-screen">
         <Navbar />
 
-        <Home />
+        <router-view />
     </div>
 </template>
 
